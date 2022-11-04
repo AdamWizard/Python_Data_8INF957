@@ -15,3 +15,6 @@ def main():
     data = import_data("data/copd_1100_train.csv")
     # Print the data
     print(data)
+
+
+main()
