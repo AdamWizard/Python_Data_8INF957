@@ -7,7 +7,7 @@ def fibo(n): # gives the nth term of the fibonacci suite
     
     return a
 
-def fiboArray(n): # gives fibonacci suite up to the nth term
+def fiboArray(n): # gives fibonacci suite up to the nth term as an array
     a,b = 0,1
     step = 0
     fiboArray = []
