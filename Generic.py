@@ -29,7 +29,7 @@ class Stack(Generic[T]):
 # Another generic stack class, this time for numbers only
 class NumStack(Generic[U]):
     def __init__(self) -> None:
-        # Create an empty list with items of type T
+        # Create an empty list with items of type U
         self.items: List[U] = []
 
     def push(self, item: U) -> None:
